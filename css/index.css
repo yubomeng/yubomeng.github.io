@@ -2737,6 +2737,9 @@ table {
   border-collapse: collapse;
   empty-cells: show;
 }
+table tr:nth-child(even) {
+  background-color: var(--anzhiyu-secondbg);
+}
 table thead {
   background: var(--anzhiyu-secondbg);
 }
@@ -13864,6 +13867,11 @@ blockquote {
     background: var(--anzhiyu-background) !important;
     border: none;
   }
+}
+#post #article-container h2 {
+  border-top: 1px dashed var(--anzhiyu-theme-op);
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 #post .post_share {
   margin: 8px 0 0;
