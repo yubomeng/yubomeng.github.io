@@ -131,8 +131,8 @@
 }
 
 
-/* 博客主题背景颜色美化 */
-[data-theme="light"] #body-wrap {
+/* 博客文章背景颜色美化 */
+ .post{
     background: linear-gradient(-45deg,
             #f7f1e8,
             #fdf8f6,
