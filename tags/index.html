@@ -208,7 +208,7 @@ if (true) {
     .then(data => {
       if (true) {
         const from = '出自 ' + data.from
-        const sub = "你侬我侬，忒煞情多。"
+        const sub = []
         sub.unshift(data.hitokoto, from)
         window.typed = new Typed('#footer-type-tips', {
           strings: sub,
