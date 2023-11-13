@@ -14,54 +14,6 @@
     margin-right: 3px !important;
 }
 
-/* Twikoo 评论样式 开始 */
-
-.tk-input .el-textarea__inner {
-    min-height: 120px !important;
-}
-
-#twikoo .OwO-body {
-    max-width: 100% !important;
-}
-
-#twikoo .OwO .OwO-body .OwO-items:nth-child(1),
-#twikoo .OwO .OwO-body .OwO-items:nth-child(4) {
-    max-height: 360px !important;
-}
-
-#twikoo .OwO-items li[title|=menhera] img {
-    width: 100% !important;
-    margin: 5px 10px;
-}
-
-.tk-comment .tk-owo-emotion[alt*=menhera] {
-    width: 300px !important;
-}
-
-.tk-comment .vemoji[alt|=menhera],
-.tk-comment .tk-owo-emotion[alt*=menhera] {
-    max-width: 300px !important;
-    max-height: 300px !important;
-    margin: 8px 1px;
-    display: block !important;
-}
-
-@media screen and (max-width: 768px) {
-
-    .tk-comment .vemoji[alt|=menhera],
-    .tk-comment .tk-owo-emotion[alt*=menhera] {
-        max-width: calc(100% - 30px) !important;
-        max-height: calc(100% - 30px) !important;
-    }
-
-    .OwO .OwO-body .OwO-items-image .OwO-item[title*=menhera] {
-        max-width: calc(50% - 10px);
-        box-sizing: border-box;
-    }
-
-}
-
-/* Twikoo 评论样式 结束 */
 
 /* 文章页--“最新”样式调整 */
 .recent-post-info .recent-post-info-top-tips .newPost {
@@ -122,18 +74,8 @@
 }
 
 
-/* 首页文章“未读”位置调整 */
-/* .recent-post-info-top-tips .unvisited-post {
-    position: relative;
-    left: 400px;
-    top: -20px;
-    font-size: 10px !important;
-    color: #e0653f !important;
-} */
-
-
 /* 博客文章背景颜色美化 */
- .post{
+[data-theme="light"] .post {
     background: linear-gradient(-45deg,
             #f7f1e8,
             #fdf8f6,
@@ -147,6 +89,7 @@
 .post-ai-description .ai-title .ai-title-text {
     color: #ae2e2e !important;
 }
+
 /* nav 图标美化 */
 .back-home-button .anzhiyu-icon-bars {
     color: #b63836 !important;
@@ -180,7 +123,8 @@
     text-align: center;
     color: #e9b9ab;
 }
-.flink .flink-name  {
+
+.flink .flink-name {
     margin-top: 20px;
 }
 
@@ -189,3 +133,24 @@
     display: none;
 }
 
+
+/* 随即前往一个文章 图标旋转 */
+.anzhiyu-icon-fan {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* loading加载动画 效果改变 */
+.loading-bg .loading-image-dot {
+    background-color: #e9b9ab !important;
+}
