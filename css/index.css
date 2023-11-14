@@ -14795,6 +14795,7 @@ blockquote {
   font-size: 20px;
   line-height: 20px;
   height: 20px;
+  color: var(--anzhiyu-main);
 }
 .ai-title .anzhiyufont.anzhiyu-icon-circle-dot {
   margin-left: auto;
@@ -14819,14 +14820,16 @@ blockquote {
 .ai-title .ai-title-text {
   font-weight: bold;
   margin-left: 8px;
+  color: var(--anzhiyu-main);
 }
 #ai-tag {
   font-size: 12px;
+  font-weight: 700;
   background-color: var(--anzhiyu-lighttext);
   color: rgba(255,255,255,0.9);
-  border-radius: 4px;
+  border-radius: 25px;
   line-height: 1;
-  padding: 4px 5px;
+  padding: 5px 6px;
   cursor: pointer;
 }
 #ai-Toggle {
