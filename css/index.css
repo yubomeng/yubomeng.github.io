@@ -9023,7 +9023,7 @@ body[data-type="tool"] #page .page-title {
 }
 .author-content.author-content-item.toolPage {
   height: 23rem;
-  background: url("https://cdnjson.com/images/2023/11/13/image458977f6b2e0c6ad.png") no-repeat top;
+  background: url("https://cdn.jsdelivr.net/gh/yubomeng/blog-CDN@main/images/tool.png") no-repeat top;
   background-size: cover;
   color: var(--anzhiyu-white);
   overflow: hidden;
@@ -9049,6 +9049,33 @@ body[data-type="tool"] #page .page-title {
 }
 #article-container .flink {
   margin-top: 1rem;
+}
+body[data-type="updatelog"] #web_bg {
+  background: var(--anzhiyu-background);
+}
+body[data-type="updatelog"] #page {
+  border: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: 0 0 !important;
+  margin-bottom: 50px;
+}
+body[data-type="updatelog"] #page .page-title {
+  display: none;
+}
+.author-content.author-content-item.updatelogPage {
+  height: 23rem;
+  background: url("https://cdn.jsdelivr.net/gh/yubomeng/blog-CDN@main/images/updatelog.png") no-repeat top;
+  background-size: cover;
+  color: var(--anzhiyu-white);
+  overflow: hidden;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  #body-wrap .layout #article-container #page {
+    padding: 0px 0px !important;
+  }
 }
 @media screen and (min-width: 1201px) and (max-width: 768px) {
   #recent-posts>.recent-post-item {
