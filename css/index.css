@@ -9023,7 +9023,7 @@ body[data-type="tool"] #page .page-title {
 }
 .author-content.author-content-item.toolPage {
   height: 23rem;
-  background: url("https://cdn.jsdelivr.net/gh/yubomeng/blog-CDN@main/images/tool.png") no-repeat top;
+  background: url("https://s3.qjqq.cn/37/655593e8bae59.webp!color") no-repeat top;
   background-size: cover;
   color: var(--anzhiyu-white);
   overflow: hidden;
@@ -9066,7 +9066,7 @@ body[data-type="updatelog"] #page .page-title {
 }
 .author-content.author-content-item.updatelogPage {
   height: 23rem;
-  background: url("https://cdn.jsdelivr.net/gh/yubomeng/blog-CDN@main/images/updatelog.png") no-repeat top;
+  background: url("https://s3.qjqq.cn/37/655596fc6fee7.webp!color") no-repeat top;
   background-size: cover;
   color: var(--anzhiyu-white);
   overflow: hidden;
@@ -16477,7 +16477,7 @@ li.card-category-list-item {
   transform: rotate(360deg);
 }
 #vcomment textarea {
-  background: url("https://cdn.jsdelivr.net/gh/yubomeng/blog-CDN@main/images/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://s3.qjqq.cn/37/6555b7da7f16d.webp!color") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
