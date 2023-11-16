@@ -17109,7 +17109,7 @@ div.btns.rounded a > i:first-child {
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   margin-right: 8px;
-  border: 2px solid #2196f3;
+  border: 2px solid #e9b9ab;
   pointer-events: none;
 }
 .checkbox input[type="checkbox"]:before {
@@ -17158,7 +17158,7 @@ div.btns.rounded a > i:first-child {
   transition-delay: 0.25s;
 }
 .checkbox input[type="checkbox"]:checked {
-  background: #2196f3;
+  background: #e9b9ab;
 }
 .checkbox input[type="checkbox"]:checked:before {
   left: 0;
@@ -17331,22 +17331,22 @@ div.btns.rounded a > i:first-child {
   background: #ffbd2b;
 }
 .checkbox.cyan input {
-  border-color: #1bcdfc;
+  border-color: #e9b9ab;
 }
 .checkbox.cyan input[type="checkbox"]:checked {
-  background: #1bcdfc;
+  background: #e9b9ab;
 }
 .checkbox.cyan input[type="radio"]:checked:before {
-  background: #1bcdfc;
+  background: #e9b9ab;
 }
 .checkbox.blue input {
-  border-color: #2196f3;
+  border-color: #e9b9ab;
 }
 .checkbox.blue input[type="checkbox"]:checked {
-  background: #2196f3;
+  background: #e9b9ab;
 }
 .checkbox.blue input[type="radio"]:checked:before {
-  background: #2196f3;
+  background: #e9b9ab;
 }
 .checkbox p {
   display: inline-block;
